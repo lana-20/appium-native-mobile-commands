@@ -1,0 +1,59 @@
+54 appium native mobile commands as of 12/22/2023
+
+Appium has 54 native mobile commands:
+1 mobile:viewportScreenshot
+2 mobile:startPerfRecord
+3 mobile:stopPerfRecord
+4 mobile:startLogsBroadcast
+5 mobile:stopLogsBroadcast
+6 mobile:swipe
+7 mobile:scroll
+8 mobile:pinch
+9 mobile:doubleTap
+10 mobile:touchAndHold
+11 mobile:twoFingerTap
+12 mobile:tap
+13 mobile:dragFromToForDuration
+14 mobile:selectPickerWheelValue
+15 mobile:alert
+16 mobile:installApp
+17 mobile:removeApp
+18 mobile:isAppInstalled
+19 mobile:launchApp
+20 mobile:terminateApp
+21 mobile:activateApp
+22 mobile:queryAppState
+23 mobile:setPasteboard
+24 mobile:getPasteboard
+25 mobile:installCertificate
+26 mobile:getContexts
+27 mobile:batteryInfo
+28 mobile:pressButton
+29 mobile:enrollBiometric
+30 mobile:sendBiometricMatch
+31 mobile:isBiometricEnrolled
+32 mobile:clearKeychains
+33 mobile:siriCommand
+34 mobile:shell
+35 mobile:startLogsBroadcast
+36 mobile:stopLogsBroadcast
+37 mobile:performEditorAction
+38 mobile:batteryInfo
+39 mobile:acceptAlert
+40 mobile:dismissAlert
+41 mobile:scrollBackTo
+42 mobile:viewportScreenshot
+43 mobile:deepLink
+44 mobile:getDeviceInfo
+45 mobile:swipe
+46 mobile:isToastVisible
+47 mobile:openDrawer
+48 mobile:closeDrawer
+49 mobile:setDate
+50 mobile:setTime
+51 mobile:navigateTo
+52 mobile:scrollToPage
+53 mobile:backdoor
+54 mobile:flashElement
+
+Retrieved this Selenium Python code: https://github.com/lana-20/appium-native-mobile-commands/blob/main/appium_mobile_commands.py
