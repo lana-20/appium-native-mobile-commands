@@ -1,3 +1,7 @@
+print(driver.execute_script("mobile: deviceInfo"))
+
+⬇️
+
 {'androidId': '1bd731c76d85a357',
  'apiVersion': '34',
  'bluetooth': {'state': 'OFF'},
