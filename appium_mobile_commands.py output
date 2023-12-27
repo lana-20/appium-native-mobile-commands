@@ -1,0 +1,415 @@
+Found 288 services:
+0       DockObserver: []
+1       SurfaceFlinger: [android.ui.ISurfaceComposer]
+2       SurfaceFlingerAIDL: [android.gui.ISurfaceComposer]
+3       accessibility: [android.view.accessibility.IAccessibilityManager]
+4       account: [android.accounts.IAccountManager]
+5       activity: [android.app.IActivityManager]
+6       activity_task: [android.app.IActivityTaskManager]
+7       adb: [android.debug.IAdbManager]
+8       adservices_manager: [android.app.adservices.IAdServicesManager]
+9       alarm: [android.app.IAlarmManager]
+10      ambient_context: [android.app.ambientcontext.IAmbientContextManager]
+11      android.frameworks.cameraservice.service.ICameraService/default: [android.frameworks.cameraservice.service.ICameraService]
+12      android.frameworks.location.altitude.IAltitudeService/default: [android.frameworks.location.altitude.IAltitudeService]
+13      android.frameworks.sensorservice.ISensorManager/default: [android.frameworks.sensorservice.ISensorManager]
+14      android.frameworks.stats.IStats/default: [android.frameworks.stats.IStats]
+15      android.hardware.authsecret.IAuthSecret/default: []
+16      android.hardware.biometrics.face.IFace/default: []
+17      android.hardware.biometrics.fingerprint.IFingerprint/default: []
+18      android.hardware.bluetooth.IBluetoothHci/default: []
+19      android.hardware.bluetooth.audio.IBluetoothAudioProviderFactory/default: []
+20      android.hardware.camera.provider.ICameraProvider/internal/0: []
+21      android.hardware.camera.provider.ICameraProvider/internal/1: []
+22      android.hardware.cas.IMediaCasService/default: [android.hardware.cas.IMediaCasService]
+23      android.hardware.contexthub.IContextHub/default: []
+24      android.hardware.dumpstate.IDumpstateDevice/default: []
+25      android.hardware.gnss.IGnss/default: []
+26      android.hardware.graphics.composer3.IComposer/default: []
+27      android.hardware.health.IHealth/default: []
+28      android.hardware.identity.IIdentityCredentialStore/default: []
+29      android.hardware.light.ILights/default: []
+30      android.hardware.neuralnetworks.IDevice/nnapi-sample_all: [android.hardware.neuralnetworks.IDevice]
+31      android.hardware.neuralnetworks.IDevice/nnapi-sample_quant: [android.hardware.neuralnetworks.IDevice]
+32      android.hardware.neuralnetworks.IDevice/nnapi-sample_sl_shim: [android.hardware.neuralnetworks.IDevice]
+33      android.hardware.power.IPower/default: []
+34      android.hardware.power.stats.IPowerStats/default: []
+35      android.hardware.radio.config.IRadioConfig/default: []
+36      android.hardware.radio.data.IRadioData/slot1: []
+37      android.hardware.radio.ims.IRadioIms/slot1: []
+38      android.hardware.radio.ims.media.IImsMedia/default: []
+39      android.hardware.radio.messaging.IRadioMessaging/slot1: []
+40      android.hardware.radio.modem.IRadioModem/slot1: []
+41      android.hardware.radio.network.IRadioNetwork/slot1: []
+42      android.hardware.radio.sim.IRadioSim/slot1: []
+43      android.hardware.radio.voice.IRadioVoice/slot1: []
+44      android.hardware.rebootescrow.IRebootEscrow/default: []
+45      android.hardware.security.keymint.IKeyMintDevice/default: []
+46      android.hardware.security.keymint.IRemotelyProvisionedComponent/default: [android.hardware.security.keymint.IRemotelyProvisionedComponent]
+47      android.hardware.security.secureclock.ISecureClock/default: []
+48      android.hardware.security.sharedsecret.ISharedSecret/default: []
+49      android.hardware.sensors.ISensors/default: []
+50      android.hardware.usb.IUsb/default: []
+51      android.hardware.vibrator.IVibrator/default: []
+52      android.hardware.vibrator.IVibratorManager/default: []
+53      android.hardware.wifi.IWifi/default: []
+54      android.hardware.wifi.supplicant.ISupplicant/default: []
+55      android.security.apc: [android.security.apc.IProtectedConfirmation]
+56      android.security.authorization: [android.security.authorization.IKeystoreAuthorization]
+57      android.security.compat: [android.security.compat.IKeystoreCompatService]
+58      android.security.identity: [android.security.identity.ICredentialStoreFactory]
+59      android.security.legacykeystore: [android.security.legacykeystore.ILegacyKeystore]
+60      android.security.maintenance: [android.security.maintenance.IKeystoreMaintenance]
+61      android.security.metrics: [android.security.metrics.IKeystoreMetrics]
+62      android.service.gatekeeper.IGateKeeperService: []
+63      android.system.keystore2.IKeystoreService/default: [android.system.keystore2.IKeystoreService]
+64      android.system.net.netd.INetd/default: []
+65      android.system.suspend.ISystemSuspend/default: []
+66      app_binding: []
+67      app_hibernation: [android.apphibernation.IAppHibernationService]
+68      app_integrity: [android.content.integrity.IAppIntegrityManager]
+69      app_prediction: [android.app.prediction.IPredictionManager]
+70      app_search: [android.app.appsearch.aidl.IAppSearchManager]
+71      appops: [com.android.internal.app.IAppOpsService]
+72      appwidget: [com.android.internal.appwidget.IAppWidgetService]
+73      artd: []
+74      attestation_verification: [android.security.attestationverification.IAttestationVerificationManagerService]
+75      audio: [android.media.IAudioService]
+76      auth: [android.hardware.biometrics.IAuthService]
+77      autofill: [android.view.autofill.IAutoFillManager]
+78      background_install_control: [android.content.pm.IBackgroundInstallControlService]
+79      backup: [android.app.backup.IBackupManager]
+80      battery: []
+81      batteryproperties: [android.os.IBatteryPropertiesRegistrar]
+82      batterystats: [com.android.internal.app.IBatteryStats]
+83      binder_calls_stats: []
+84      biometric: [android.hardware.biometrics.IBiometricService]
+85      blob_store: [android.app.blob.IBlobStoreManager]
+86      bluetooth_manager: [android.bluetooth.IBluetoothManager]
+87      bugreport: [android.os.IDumpstate]
+88      cacheinfo: []
+89      carrier_config: [com.android.internal.telephony.ICarrierConfigLoader]
+90      clipboard: [android.content.IClipboard]
+91      color_display: [android.hardware.display.IColorDisplayManager]
+92      companiondevice: [android.companion.ICompanionDeviceManager]
+93      connectivity: [android.net.IConnectivityManager]
+94      connectivity_native: [android.net.connectivity.aidl.ConnectivityNative]
+95      connmetrics: [android.net.IIpConnectivityMetrics]
+96      content: [android.content.IContentService]
+97      content_capture: [android.view.contentcapture.IContentCaptureManager]
+98      content_suggestions: [android.app.contentsuggestions.IContentSuggestionsManager]
+99      country_detector: [android.location.ICountryDetector]
+100     cpuinfo: []
+101     credential: [android.credentials.ICredentialManager]
+102     crossprofileapps: [android.content.pm.ICrossProfileApps]
+103     dataloader_manager: [android.content.pm.IDataLoaderManager]
+104     dbinfo: []
+105     device_config: []
+106     device_identifiers: [android.os.IDeviceIdentifiersPolicyService]
+107     device_lock: [android.devicelock.IDeviceLockService]
+108     device_policy: [android.app.admin.IDevicePolicyManager]
+109     device_state: [android.hardware.devicestate.IDeviceStateManager]
+110     deviceidle: [android.os.IDeviceIdleController]
+111     devicestoragemonitor: []
+112     diskstats: []
+113     display: [android.hardware.display.IDisplayManager]
+114     dnsresolver: []
+115     domain_verification: [android.content.pm.verify.domain.IDomainVerificationManager]
+116     dreams: [android.service.dreams.IDreamManager]
+117     drm.drmManager: [drm.IDrmManagerService]
+118     dropbox: [com.android.internal.os.IDropBoxManagerService]
+119     dynamic_system: [android.os.image.IDynamicSystemService]
+120     emergency_affordance: []
+121     external_vibrator_service: [android.os.IExternalVibratorService]
+122     face: [android.hardware.face.IFaceService]
+123     file_integrity: [android.security.IFileIntegrityService]
+124     fingerprint: [android.hardware.fingerprint.IFingerprintService]
+125     font: [com.android.internal.graphics.fonts.IFontManager]
+126     game: [android.app.IGameManagerService]
+127     gfxinfo: []
+128     gpu: [android.graphicsenv.IGpuService]
+129     grammatical_inflection: [android.app.IGrammaticalInflectionManager]
+130     graphicsstats: [android.view.IGraphicsStats]
+131     hardware_properties: [android.os.IHardwarePropertiesManager]
+132     healthconnect: [android.health.connect.aidl.IHealthConnectService]
+133     imms: [com.android.internal.telephony.IMms]
+134     incident: []
+135     incidentcompanion: [android.os.IIncidentCompanion]
+136     incremental: [android.os.incremental.IIncrementalService]
+137     input: [android.hardware.input.IInputManager]
+138     input_method: [com.android.internal.view.IInputMethodManager]
+139     inputflinger: [android.os.IInputFlinger]
+140     installd: []
+141     ions: [com.android.internal.telephony.IOns]
+142     iphonesubinfo: [com.android.internal.telephony.IPhoneSubInfo]
+143     ipsec: [android.net.IIpSecService]
+144     isms: [com.android.internal.telephony.ISms]
+145     isub: [com.android.internal.telephony.ISub]
+146     jobscheduler: [android.app.job.IJobScheduler]
+147     launcherapps: [android.content.pm.ILauncherApps]
+148     legacy_permission: [android.permission.ILegacyPermissionManager]
+149     lights: [android.hardware.lights.ILightsManager]
+150     locale: [android.app.ILocaleManager]
+151     location: [android.location.ILocationManager]
+152     location_time_zone_manager: []
+153     lock_settings: [com.android.internal.widget.ILockSettings]
+154     logcat: [android.os.logcat.ILogcatManagerService]
+155     logd: [android.os.ILogd]
+156     looper_stats: []
+157     manager: [android.os.IServiceManager]
+158     mdns: []
+159     media.audio_flinger: [android.media.IAudioFlingerService]
+160     media.audio_policy: [android.media.IAudioPolicyService]
+161     media.camera: [android.hardware.ICameraService]
+162     media.camera.proxy: [android.hardware.ICameraServiceProxy]
+163     media.extractor: [android.IMediaExtractorService]
+164     media.metrics: [android.media.IMediaMetricsService]
+165     media.player: [android.media.IMediaPlayerService]
+166     media.resource_manager: [android.media.IResourceManagerService]
+167     media.resource_observer: [android.media.IResourceObserverService]
+168     media_communication: [android.media.IMediaCommunicationService]
+169     media_metrics: [android.media.metrics.IMediaMetricsManager]
+170     media_projection: [android.media.projection.IMediaProjectionManager]
+171     media_resource_monitor: [android.media.IMediaResourceMonitor]
+172     media_router: [android.media.IMediaRouterService]
+173     media_session: [android.media.session.ISessionManager]
+174     meminfo: []
+175     memtrack.proxy: [android.hardware.memtrack.IMemtrack]
+176     midi: [android.media.midi.IMidiManager]
+177     mount: [android.os.storage.IStorageManager]
+178     music_recognition: [android.media.musicrecognition.IMusicRecognitionManager]
+179     nearby: [android.nearby.INearbyManager]
+180     netd: []
+181     netd_listener: [android.net.metrics.INetdEventListener]
+182     netpolicy: [android.net.INetworkPolicyManager]
+183     netstats: [android.net.INetworkStatsService]
+184     network_management: [android.os.INetworkManagementService]
+185     network_score: [android.net.INetworkScoreService]
+186     network_stack: [android.net.INetworkStackConnector]
+187     network_time_update_service: []
+188     network_watchlist: [com.android.internal.net.INetworkWatchlistManager]
+189     notification: [android.app.INotificationManager]
+190     ondevicepersonalization_system_service: [android.app.ondevicepersonalization.IOnDevicePersonalizationSystemService]
+191     otadexopt: [android.content.pm.IOtaDexopt]
+192     overlay: [android.content.om.IOverlayManager]
+193     pac_proxy: [android.net.IPacProxyManager]
+194     package: [android.content.pm.IPackageManager]
+195     package_native: [android.content.pm.IPackageManagerNative]
+196     people: [android.app.people.IPeopleManager]
+197     performance_hint: [android.os.IHintManager]
+198     permission: [android.os.IPermissionController]
+199     permission_checker: [android.permission.IPermissionChecker]
+200     permissionmgr: [android.permission.IPermissionManager]
+201     phone: [com.android.internal.telephony.ITelephony]
+202     pinner: []
+203     platform_compat: [com.android.internal.compat.IPlatformCompat]
+204     platform_compat_native: [com.android.internal.compat.IPlatformCompatNative]
+205     power: [android.os.IPowerManager]
+206     powerstats: []
+207     print: [android.print.IPrintManager]
+208     processinfo: [android.os.IProcessInfoService]
+209     procstats: [com.android.internal.app.procstats.IProcessStats]
+210     reboot_readiness: [android.scheduling.IRebootReadinessManager]
+211     recovery: [android.os.IRecoverySystem]
+212     remote_provisioning: [android.security.rkp.IRemoteProvisioning]
+213     resources: [android.content.res.IResourcesManager]
+214     restrictions: [android.content.IRestrictionsManager]
+215     role: [android.app.role.IRoleManager]
+216     rollback: [android.content.rollback.IRollbackManager]
+217     runtime: []
+218     safety_center: [android.safetycenter.ISafetyCenterManager]
+219     scheduling_policy: [android.os.ISchedulingPolicyService]
+220     sdk_sandbox: [android.app.sdksandbox.ISdkSandboxManager]
+221     search: [android.app.ISearchManager]
+222     search_ui: [android.app.search.ISearchUiManager]
+223     sec_key_att_app_id_provider: [android.security.keymaster.IKeyAttestationApplicationIdProvider]
+224     secure_element: [android.se.omapi.ISecureElementService]
+225     selection_toolbar: [android.view.selectiontoolbar.ISelectionToolbarManager]
+226     sensor_privacy: [android.hardware.ISensorPrivacyManager]
+227     sensorservice: [android.gui.SensorServer]
+228     serial: [android.hardware.ISerialManager]
+229     servicediscovery: [android.net.nsd.INsdManager]
+230     settings: []
+231     shortcut: [android.content.pm.IShortcutService]
+232     simphonebook: [com.android.internal.telephony.IIccPhoneBook]
+233     slice: [android.app.slice.ISliceManager]
+234     smartspace: [android.app.smartspace.ISmartspaceManager]
+235     soundtrigger: [com.android.internal.app.ISoundTriggerService]
+236     soundtrigger_middleware: [android.media.soundtrigger_middleware.ISoundTriggerMiddlewareService]
+237     speech_recognition: [android.speech.IRecognitionServiceManager]
+238     stats: [android.os.IStatsd]
+239     statsbootstrap: [android.os.IStatsBootstrapAtomService]
+240     statscompanion: [android.os.IStatsCompanionService]
+241     statsmanager: [android.os.IStatsManagerService]
+242     statusbar: [com.android.internal.statusbar.IStatusBarService]
+243     storaged: [android.os.IStoraged]
+244     storaged_pri: [android.os.storaged.IStoragedPrivate]
+245     storagestats: [android.app.usage.IStorageStatsManager]
+246     suspend_control: []
+247     suspend_control_internal: []
+248     system_config: [android.os.ISystemConfig]
+249     system_server_dumper: []
+250     system_update: [android.os.ISystemUpdateManager]
+251     tare: [android.app.tare.IEconomyManager]
+252     telecom: [com.android.internal.telecom.ITelecomService]
+253     telephony.registry: [com.android.internal.telephony.ITelephonyRegistry]
+254     telephony_ims: [android.telephony.ims.aidl.IImsRcsController]
+255     testharness: []
+256     tethering: [android.net.ITetheringConnector]
+257     textclassification: [android.service.textclassifier.ITextClassifierService]
+258     textservices: [com.android.internal.textservice.ITextServicesManager]
+259     texttospeech: [android.speech.tts.ITextToSpeechManager]
+260     thermalservice: [android.os.IThermalService]
+261     time_detector: [android.app.timedetector.ITimeDetectorService]
+262     time_zone_detector: [android.app.timezonedetector.ITimeZoneDetectorService]
+263     tracing.proxy: [android.tracing.ITracingServiceProxy]
+264     translation: [android.view.translation.ITranslationManager]
+265     transparency: [com.android.internal.os.IBinaryTransparencyService]
+266     trust: [android.app.trust.ITrustManager]
+267     uimode: [android.app.IUiModeManager]
+268     updatelock: [android.os.IUpdateLock]
+269     uri_grants: [android.app.IUriGrantsManager]
+270     usagestats: [android.app.usage.IUsageStatsManager]
+271     usb: [android.hardware.usb.IUsbManager]
+272     user: [android.os.IUserManager]
+273     vcn_management: [android.net.vcn.IVcnManagementService]
+274     vibrator_manager: [android.os.IVibratorManagerService]
+275     virtualdevice: [android.companion.virtual.IVirtualDeviceManager]
+276     voiceinteraction: [com.android.internal.app.IVoiceInteractionManagerService]
+277     vold: []
+278     vpn_management: [android.net.IVpnManager]
+279     wallpaper: [android.app.IWallpaperManager]
+280     wallpaper_effects_generation: [android.app.wallpapereffectsgeneration.IWallpaperEffectsGenerationManager]
+281     wearable_sensing: [android.app.wearable.IWearableSensingManager]
+282     webviewupdate: [android.webkit.IWebViewUpdateService]
+283     wifi: [android.net.wifi.IWifiManager]
+284     wifinl80211: []
+285     wifip2p: [android.net.wifi.p2p.IWifiP2pManager]
+286     wifiscanner: [android.net.wifi.IWifiScanner]
+287     window: [android.view.IWindowManager]
+
+Current Battery Service state:
+  AC powered: false
+  USB powered: false
+  Wireless powered: false
+  Dock powered: false
+  Max charging current: 0
+  Max charging voltage: 0
+  Charge counter: 10000
+  status: 4
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 5000
+  temperature: 250
+  technology: Li-ion
+
+Load: 0.03 / 0.44 / 0.51
+CPU usage from 303818ms to 86873ms ago (2023-12-26 22:36:13.705 to 2023-12-26 22:39:50.649):
+  2.7% 411/surfaceflinger: 1.3% user + 1.4% kernel / faults: 2 minor
+  2.3% 523/system_server: 1% user + 1.3% kernel / faults: 18348 minor 9 major
+  2.3% 15065/com.google.android.googlequicksearchbox:search: 1.3% user + 0.9% kernel / faults: 32 minor
+  1.4% 376/android.hardware.sensors-service.multihal: 0.7% user + 0.7% kernel
+  1.1% 30546/artd: 0.6% user + 0.5% kernel / faults: 91077 minor
+  0.7% 2226/adbd: 0.3% user + 0.4% kernel / faults: 17826 minor
+  0.4% 398/android.hardware.graphics.composer3-service.ranchu: 0.2% user + 0.1% kernel
+  0.2% 2620/kworker/2:0-virtio_vsock: 0% user + 0.2% kernel
+  0.2% 26554/com.google.android.gms.unstable: 0.1% user + 0.1% kernel / faults: 8564 minor 2587 major
+  0.1% 30240/com.google.android.gms.persistent: 0% user + 0.1% kernel / faults: 1213 minor 87 major
+  0% 32362/kworker/u8:1-phy1: 0% user + 0% kernel
+  0.1% 158/servicemanager: 0% user + 0% kernel
+  0% 871/com.android.systemui: 0% user + 0% kernel / faults: 427 minor 1 major
+  0% 30291/kworker/u8:2-events_unbound: 0% user + 0% kernel
+  0% 30370/com.google.android.gms: 0% user + 0% kernel / faults: 3330 minor 1008 major
+  0% 41/kcompactd0: 0% user + 0% kernel
+  0% 359/android.hardware.audio.service: 0% user + 0% kernel
+  0% 1093/com.android.phone: 0% user + 0% kernel / faults: 190 minor 6 major
+  0% 352/statsd: 0% user + 0% kernel
+  0% 353/netd: 0% user + 0% kernel / faults: 21 minor
+  0% 156/logd: 0% user + 0% kernel / faults: 78 minor
+  0% 838/android.hardware.biometrics.fingerprint-service.ranchu: 0% user + 0% kernel
+  0% 1132/com.google.android.apps.nexuslauncher: 0% user + 0% kernel / faults: 18 minor
+  0% 393/android.hardware.wifi-service: 0% user + 0% kernel
+  0% 859/wpa_supplicant: 0% user + 0% kernel
+  0% 1039/com.android.networkstack.process: 0% user + 0% kernel / faults: 94 minor 8 major
+  0% 21038/kworker/0:2-events: 0% user + 0% kernel
+  0% 13/ksoftirqd/0: 0% user + 0% kernel
+  0% 157/lmkd: 0% user + 0% kernel
+  0% 354/zygote64: 0% user + 0% kernel / faults: 70 minor
+  0% 14774/libgoldfish-rild: 0% user + 0% kernel
+  0% 20170/kworker/1:2-events_power_efficient: 0% user + 0% kernel
+  0% 23406/kworker/3:2-mm_percpu_wq: 0% user + 0% kernel
+  0% 31079/kworker/u9:1-blk_crypto_wq: 0% user + 0% kernel
+  0% 14/rcu_preempt: 0% user + 0% kernel
+  0% 23/ksoftirqd/1: 0% user + 0% kernel
+  0% 93/ueventd: 0% user + 0% kernel
+  0% 171/vold: 0% user + 0% kernel
+  0% 178/android.system.suspend-service: 0% user + 0% kernel
+  0% 210/jbd2/dm-39-8: 0% user + 0% kernel
+  0% 388/android.hardware.usb-service.example: 0% user + 0% kernel
+  0% 401/android.hardware.power-service.example: 0% user + 0% kernel
+  0% 430/traced_probes: 0% user + 0% kernel
+  0% 431/traced: 0% user + 0% kernel
+  0% 456/wificond: 0% user + 0% kernel
+  0% 1659/com.google.android.as: 0% user + 0% kernel / faults: 10 minor 3 major
+  0% 1904/com.google.process.gservices: 0% user + 0% kernel / faults: 36 minor 4 major
+  0% 2716/kworker/3:2H-kverityd: 0% user + 0% kernel
+  0% 2852/com.google.android.googlequicksearchbox:interactor: 0% user + 0% kernel / faults: 4 major
+  0% 30199/kworker/u9:2-blk_crypto_wq: 0% user + 0% kernel
+  0% 32584/kworker/u9:0-blk_crypto_wq: 0% user + 0% kernel
+ +0% 2829/com.google.process.gapps: 0% user + 0% kernel
+ +0% 2858/com.android.vending:background: 0% user + 0% kernel
+ +0% 2889/kworker/u9:3-blk_crypto_wq: 0% user + 0% kernel
+ +0% 2960/kworker/2:2-virtio_vsock: 0% user + 0% kernel
+2.3% TOTAL: 0.7% user + 0.7% kernel + 0% iowait + 0.7% irq + 0% softirq
+
+Applications Memory Usage (in Kilobytes):
+Uptime: 193005937 Realtime: 193005937
+
+** MEMINFO in pid 3588 [io.appium.android.apis] **
+                   Pss  Private  Private  SwapPss      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    12317    12248       32       77    13224    22168    16572     1049
+  Dalvik Heap     2014     1928       56      335     2588     4541     2271     2270
+ Dalvik Other      720      696        0       33      832                           
+        Stack      652      652        0        0      660                           
+       Ashmem       17        0        0        0      392                           
+    Other dev      150        4      136        0      436                           
+     .so mmap     5629      248     1976       19    33116                           
+    .jar mmap     3816        0      760        0    35336                           
+    .apk mmap      637        0      188        0     2600                           
+    .ttf mmap      315        0      308        0      352                           
+    .dex mmap       11        0        0        0      624                           
+    .oat mmap       51        0        0        0     1496                           
+    .art mmap     7595     5648      300      164    20808                           
+   Other mmap       50        4        0        0     1032                           
+      Unknown     3103     3092        0        0     3448                           
+        TOTAL    37705    24520     3756      628   116944    26709    18843     3319
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:     7876                          23396
+         Native Heap:    12248                          13224
+                Code:     3480                          73556
+               Stack:      652                            660
+            Graphics:        0                              0
+       Private Other:     4020
+              System:     9429
+             Unknown:                                    6108
+ 
+           TOTAL PSS:    37705            TOTAL RSS:   116944       TOTAL SWAP PSS:      628
+ 
+ Objects
+               Views:       26         ViewRootImpl:        1
+         AppContexts:        6           Activities:        1
+              Assets:       21        AssetManagers:        0
+       Local Binders:       21        Proxy Binders:       36
+       Parcel memory:        4         Parcel count:       16
+    Death Recipients:        0             WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
