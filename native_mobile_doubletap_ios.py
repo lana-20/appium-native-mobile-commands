@@ -1,6 +1,7 @@
 import time
 from appium import webdriver
-from appium.webdriver.common.mobileby import MobileBy
+from appium.options.common import AppiumOptions
+from appium.webdriver.common.appiumby import AppiumBy
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -15,13 +16,19 @@ CAPS = {
         "autoAcceptsAlerts": True
     }
 }
-driver = webdriver.Remote(APPIUM, CAPS)
+OPTIONS = AppiumOptions().load_capabilities(CAPS)
+
+driver = webdriver.Remote(
+    command_executor=APPIUM,
+    options=OPTIONS
+)
+
 try:
     wait = WebDriverWait(driver, 5)
     wait.until(EC.presence_of_element_located(
-        (MobileBy.ACCESSIBILITY_ID, "Not Now"))).click()
+        (AppiumBy.ACCESSIBILITY_ID, "Not Now"))).click()
     wait.until(EC.presence_of_element_located(
-        (MobileBy.ACCESSIBILITY_ID, "Allow Once"))).click()
+        (AppiumBy.ACCESSIBILITY_ID, "Allow Once"))).click()
 
     driver.execute_script("mobile: doubleTap", {"x": 100, "y": 100})
     time.sleep(1)   # for demo only
